@@ -58,7 +58,7 @@ function RightPane({ HandleSearch, dupposts }) {
 				style={{ margin: '20px' }}
 				variant='h4'
 				color='textPrimary'>
-				Popular Posts
+				Popular Discussions
 			</Typography>
 			{posts_state.posts.slice(0, 10).map((item) => (
 				<Grid item xs={12}>
